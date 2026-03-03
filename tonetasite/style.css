@@ -1,0 +1,191 @@
+
+
+header {
+    background-color: #0b5e2b;
+    padding: 4px 0;
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+    background-color: #d5e7db;
+    color: #222
+}
+
+main {
+    padding-left: 10px;
+    margin-bottom: 100px;
+}
+
+.site-main {
+    margin-left: 390px;
+}
+
+
+.conteudo {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.conteudo img {
+    width: 175px;
+    grid-row: span 2; 
+}
+
+.conteudo p {
+    grid-column: 2;
+    margin: 0 0 15px 0;
+}
+
+.conteudo ul {
+    grid-column: 2; 
+    margin: 0;
+    padding-left: 20px;
+    grid-row: 2; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.escudo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+
+.principal p{
+    width: 600px;
+    margin: 0;
+}
+
+.principal h1 {
+    margin-bottom: 10px;
+}
+
+.historia p {
+    width: 800px;
+}
+
+.titulos p {
+    width: 800px;
+}
+
+.escudos {
+    width: 800px;
+}
+
+
+.escudos img {
+    width: 165px;
+    margin-right: 15px;
+}
+
+.escudo1 {
+    margin-bottom: 40px;
+    width: 800px;
+}
+
+.escudo1 img {
+    float: left;
+}
+
+.escudo2 {
+    margin-bottom: 40px;
+    width: 800px;
+}
+
+.escudo2 img {
+    float: left;
+}
+
+.escudo3 {
+    margin-bottom: 40px;
+    width: 800px;
+}
+
+.escudo3 img {
+    float: left;
+}
+
+table {
+    border: 1px solid black;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+thead tr td {
+    background-color: seagreen;
+    text-align: center;
+}
+
+.cor1 {
+    background-color: rgb(20, 142, 20);
+}
+
+.cor2 {
+    background-color: seagreen;
+}
+
+.tabela {
+    margin-right: 300px;
+}
+
+.tabelaehino {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.hino {
+    padding: 15px;
+}
+
+.hino p {
+    width: 250px;
+}
+
+.hino audio {
+    margin-top: 30px;
+}
+
+.atualmente {
+    width: 800px;
+}
+
+.atualmente img {
+    width: 350px;
+    margin-left: 200px;
+}
+
+footer {
+    background-color:#0b5e2b;
+    color: white;
+    text-align: center;  
+    padding: 5px;
+}
+
